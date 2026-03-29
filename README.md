@@ -12,7 +12,7 @@ A score of 1.0 means the device hits every threshold. Above 1.0 means it exceeds
 
 ## Assumptions
 
-Tethered devices are excluded, including compute pucks. Wireless offloading to a smartphone is acceptable. The glasses must have two full-color displays, one per eye. Vergence-accommodation is assumed to be either solved or set at a comfortable fixed focal distance for desk work. The device must handle normal small head movements without the image breaking. Spatial tracking sufficient to lock virtual content to the real world is assumed as a baseline requirement.
+Tethered devices are excluded, including compute pucks. This is not just about convenience. A puck-dependent architecture is a fundamentally different product trajectory and likely a dead end rather than a stepping stone toward real AR glasses. Wireless offloading to a smartphone is acceptable, but only because smartphones are a fixture of daily life and not a dedicated accessory bought for the glasses. The glasses must have two full-color displays, one per eye. Vergence-accommodation is assumed to be either solved or set at a comfortable fixed focal distance for desk work. The device must handle normal small head movements without the image breaking. Spatial tracking sufficient to lock virtual content to the real world is assumed as a baseline requirement.
 
 ## Targets
 
