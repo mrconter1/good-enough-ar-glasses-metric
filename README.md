@@ -5,7 +5,7 @@ The minimum spec combination for AR glasses to function as a genuine daily-drive
 The score is a **weakest-link metric**: a single failing spec drags the whole product down, regardless of how good the others are.
 
 ```
-score = min(nits/3000, fov/50, ppd/30, battery/8, 40/weight)
+score = min(nits/3000, fov/50, ppd/30, battery/8, 40/weight, 1400/price)
 ```
 
 A score of 1.0 means the device hits every threshold. Above 1.0 means it exceeds them. The goal is to track progress over time and see when something finally crosses the line.
@@ -23,8 +23,9 @@ Tethered devices are excluded. The glasses must be self-contained. Vergence-acco
 | Weight | 40g |
 | Battery Life | 8 hours active display use |
 | PPD | 30 pixels per degree |
+| Price | $1,400 (in 2026 dollars) |
 
 ## Devices
 
-| Device | Year | Nits (to-eye) | FoV (°) | Weight (g) | Battery (h) | PPD | Score |
-|---|---|---|---|---|---|---|---|
+| Device | Year | Nits (to-eye) | FoV (°) | Weight (g) | Battery (h) | PPD | Price ($) | Score |
+|---|---|---|---|---|---|---|---|---|
