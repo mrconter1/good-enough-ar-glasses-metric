@@ -2,6 +2,10 @@
 
 The minimum spec combination for AR glasses to function as a genuine daily-driver screen replacement, something you can wear all day and that could meaningfully replace your screens.
 
+## Score Over Time
+
+![Score over time](chart/chart.png)
+
 The score is a **weakest-link metric**: a single failing spec drags the whole product down, regardless of how good the others are.
 
 ```
