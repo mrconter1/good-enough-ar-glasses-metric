@@ -12,7 +12,7 @@ A score of 1.0 means the device hits every threshold. Above 1.0 means it exceeds
 
 ## Assumptions
 
-Tethered devices are excluded. The glasses must be self-contained. Vergence-accommodation is assumed to be either solved or set at a comfortable fixed focal distance for desk work. The device must have two displays, one per eye, and must handle normal small head movements without the image breaking.
+Tethered devices are excluded, including compute pucks. Wireless offloading to a smartphone is acceptable. The glasses must have two full-color displays, one per eye. Vergence-accommodation is assumed to be either solved or set at a comfortable fixed focal distance for desk work. The device must handle normal small head movements without the image breaking.
 
 ## Targets
 
