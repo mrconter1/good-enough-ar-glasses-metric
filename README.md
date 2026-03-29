@@ -10,6 +10,10 @@ score = min(nits/3000, fov/50, ppd/30, battery/8, 40/weight)
 
 A score of 1.0 means the device hits every threshold. Above 1.0 means it exceeds them. The goal is to track progress over time and see when something finally crosses the line.
 
+## Assumptions
+
+Tethered devices are excluded. The glasses must be self-contained. Vergence-accommodation is assumed to be either solved or set at a comfortable fixed focal distance for desk work. The device must have two displays, one per eye, and must handle normal small head movements without the image breaking.
+
 ## Targets
 
 | Metric | Good-Enough Target |
