@@ -20,7 +20,7 @@ MUTED = "#888"
 RED   = "#ff5c5c"
 
 COLORS = ["#7eb8f7", "#f7a96e", "#6ee8a2"]
-text_positions = ["top right", "bottom center", "top left"]
+text_positions = ["top center", "bottom center", "top center"]
 
 fig.add_trace(go.Scatter(
     x=dates,
@@ -40,6 +40,7 @@ for i, device in enumerate(devices):
         textfont=dict(family="Inter, sans-serif", size=12, color=COLORS[i]),
         marker=dict(color=COLORS[i], size=9),
         hovertemplate=f"<b>{device['name']}</b><br>Score: {device['score']:.2f}<extra></extra>",
+        cliponaxis=False,
         showlegend=False,
     ))
 
@@ -47,7 +48,7 @@ fig.add_hline(
     y=1.0,
     line=dict(color=RED, width=1.2, dash="dash"),
     annotation_text="good enough",
-    annotation_position="right",
+    annotation_position="top right",
     annotation_font=dict(color=RED, size=11),
 )
 
@@ -73,7 +74,7 @@ fig.update_layout(
         tickfont=dict(size=11, color=MUTED),
         zeroline=False,
     ),
-    margin=dict(l=50, r=120, t=20, b=50),
+    margin=dict(l=50, r=40, t=20, b=50),
     width=800,
     height=420,
     showlegend=False,
