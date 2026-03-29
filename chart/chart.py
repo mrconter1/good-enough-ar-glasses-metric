@@ -20,7 +20,7 @@ MUTED = "#888"
 RED   = "#ff5c5c"
 
 COLORS = ["#7eb8f7", "#f7a96e", "#6ee8a2"]
-text_positions = ["top center", "bottom center", "top center"]
+text_positions = ["top right", "bottom center", "top left"]
 
 fig.add_trace(go.Scatter(
     x=dates,
